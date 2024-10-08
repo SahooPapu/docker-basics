@@ -110,9 +110,8 @@ $ docker rm <container-id>
 # Remove all stopped containers + un-used images + un-used networks 
 $ docker system prune -a
 
-###############  Note: Create account in Docker Hub (https://hub.docker.com/) ###################
+Note: Create account in Docker Hub (https://hub.docker.com/)
 
-============
 Dockerfile
 ===========
 
@@ -159,7 +158,7 @@ Maintainer
 
 Syntax:
 
-MAINTAINER  Ashok <ashok.b@oracle.com>
+MAINTAINER  Ashok <papu.sahoo@gmail.com>
 
 COPY
 ======
@@ -195,7 +194,7 @@ COPY : It can copy from one path to another path with in the same machine.
 ADD : It can copy from one path to another path & it supprts URL also as source.
 
 RUN
-===========
+====
 
 -> RUN instructions will execute while creating docker image
 
@@ -242,7 +241,7 @@ Sample Docker
 
 FROM ubuntu
 
-MAINTAINER Ashok<ashok.b@oracle.com>
+MAINTAINER Ashok<papu.sahoo@gmail.com>
 
 RUN echo "Hi, i am run - 1"
 RUN echo "Hi, i am run - 2"
@@ -297,8 +296,6 @@ ENTRYPOINT [ "echo" , "Container Created Successfully" ]
 
 ENTRYPOINT [ "java", "-jar", "target/springboot.jar" ]
 
-
-========================================================
 Q) What is the difference between CMD and ENTRYPOINT ?
 ========================================================
 
