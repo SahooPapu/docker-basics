@@ -1,0 +1,5 @@
+in\ashokit\repository\BookRepository.class
+in\ashokit\Application.class
+in\ashokit\controller\BookController.class
+in\ashokit\ServletInitializer.class
+in\ashokit\binding\Book.class
